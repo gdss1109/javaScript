@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>9. JavaScript Array</title>
+	<script type="text/JavaScript">
+// variables which are defined by var keyword are local 
+//and variables which are not defined by vae keyword are global;
+/*
+if (true) {
+	var x = 5
+}
+
+alert(x);
+myScope = "global";
+
+(function (){
+	 myScope = "function";
+	alert("inside the function, the scope is: " + myScope);
+}) ();
+
+alert("outside the function the scope is: " + myScope);
+*/
+var a = 10;
+
+(function(){
+	
+console.log(a);
+a = 12;
+console.log(a,'after');
+
+})();
+
+
+//myScope = "global";
+
+//alert('window.myScope: ' + window.myScope);
+	</script>
+</head>
+<body>
+	<h1>9. JavaScript Array</h1>
+</body>
+</html>

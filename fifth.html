@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>7. Conditional Logic in JavaScript</title>
+	<Script type ="text/JavaScript">
+/*
+function myNewFuction(){
+	alert("Howdy!");
+}
+
+myNewFuction();
+
+
+function myNewFunction(myValue){
+  alert("Howdy, " + myValue);
+}
+
+myNewFunction("Gagan");
+
+function add(firstNumber, secondNumber) {
+	return firstNumber+secondNumber;
+}
+*/
+
+
+//add any number of number you want to 
+// arguments is the fumction which is used for taking multiple arguments without defining them
+/* 
+function add(){
+	var tempVale = 0;
+for(i = 0; i < arguments.length; i++){
+	tempVale += arguments[i];
+}
+return tempVale;
+}
+
+
+
+var myValue = add(4,5,1,5,10);
+alert(myValue);
+*/
+/*
+var addMe = function(){
+	return arguments[0]+arguments[1];
+}
+
+var myNewValue = addMe(4,5);
+alert(myNewValue);
+*/
+
+//annomus function
+
+alert((function() {
+	return arguments[0] + arguments[1];
+}) (1,2));
+
+
+	</Script>
+</head>
+<body>
+	<h1>7. COnditional Logic in JavaScript</h1>
+	<input type="submit" value="Click me" onclick="myNewFunction("Anak");">
+</body>
+</html>

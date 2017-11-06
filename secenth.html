@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>9. JavaScript Array</title>
+	<script type="text/JavaScript">
+
+//var playlist = {"One for the Team","The joy Formidable","Young the Giant","Washed out"};
+
+var playlist = [];
+playlist[0] = "One for the Team";
+playlist[1] = "The joy Formidable";
+playlist[2] = "Young the Giant";
+playlist[3] =  "Washed out";
+/*
+//while 
+
+var i = 0;
+
+while(i < playlist.length){
+	document.write("<br /> Now Playing: " + playlist[i]);
+	i++;
+}
+
+
+//do - while
+var someResult = false;
+do{
+	document.write("Will print At Least once !");
+}
+while (someResult);
+
+
+for(var i = 0; i < playlist.length; i++)
+{
+	document.write("<br /> Now Playing: " + playlist[i]);
+}
+
+
+for (i in playlist){
+	document.write("<br/>Now Playing: " + playlist[i]);
+}
+*/
+
+for(var i = playlist.length - 1; i > -1; i--)
+{
+	document.write("<br /> Now Playing: " + playlist[i]);
+}
+
+
+	</script>
+</head>
+<body>
+	<h1>9. JavaScript Array</h1>
+</body>
+</html>
